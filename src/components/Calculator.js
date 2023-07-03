@@ -29,7 +29,7 @@ function Calculator({ display, setDisplay, equation, setEquation }) {
             setEquation={setEquation}
           />
           <Button
-            text="÷"
+            text=""
             display={display}
             setDisplay={setDisplay}
             equation={equation}
@@ -59,7 +59,7 @@ function Calculator({ display, setDisplay, equation, setEquation }) {
             setEquation={setEquation}
           />
           <Button
-            text="x"
+            text="÷"
             display={display}
             setDisplay={setDisplay}
             equation={equation}
@@ -89,7 +89,7 @@ function Calculator({ display, setDisplay, equation, setEquation }) {
             setEquation={setEquation}
           />
           <Button
-            text="-"
+            text="x"
             display={display}
             setDisplay={setDisplay}
             equation={equation}
@@ -119,7 +119,7 @@ function Calculator({ display, setDisplay, equation, setEquation }) {
             setEquation={setEquation}
           />
           <Button
-            text="+"
+            text="-"
             display={display}
             setDisplay={setDisplay}
             equation={equation}
@@ -143,6 +143,13 @@ function Calculator({ display, setDisplay, equation, setEquation }) {
           />
           <Button
             text="="
+            display={display}
+            setDisplay={setDisplay}
+            equation={equation}
+            setEquation={setEquation}
+          />
+          <Button
+            text="+"
             display={display}
             setDisplay={setDisplay}
             equation={equation}
